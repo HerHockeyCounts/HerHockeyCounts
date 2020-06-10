@@ -292,7 +292,15 @@ span.accent {
     border-bottom-color: #6400A8;
   }
 }
+@media (min-width: 768px) and (max-width: 825px) {
+  .nav > li {
+    font-size: 13px;
+  }
+}
 @media (max-width: 768px) {
+  .nav > li {
+    font-size: 14px;
+  }
   .navbar-custom .navbar-brand {
     color: #ffffff;
   }
@@ -649,6 +657,23 @@ div.buttons {
 /*------------------------------------*/
 #footer div {
   color: #ffffff;
+}
+.footerText {
+  font-size:10px;
+}
+@media (max-width: 768px) {
+  .none {
+    width:0; 
+    height:0; 
+    font-size:0; 
+    line-height:0; 
+    overflow:hidden; 
+    float:left; 
+    display:none;
+  }
+  .block {
+    display:block; 
+  }
 }
 /*------------------------------------*/
 /* 
