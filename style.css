@@ -270,6 +270,7 @@ span.accent {
   background: none;
 }
 .navbar-custom .nav li.active a:before,
+.navbar-custom .nav li.active2 a:before,
 .navbar-custom .nav > li > a:hover::before {
   content: "";
   position: absolute;
@@ -312,7 +313,8 @@ span.accent {
   .navbar-custom .navbar-toggle {
     color: #ffffff;
   }
-  .navbar-custom .nav li.active a {
+  .navbar-custom .nav li.active a, 
+  .navbar-custom .nav li.active2 a {
     color: #1abc9c;
   }
   .navbar-custom .nav > li > a:hover::before {
@@ -350,7 +352,7 @@ span.accent {
   .navbar-custom.top-nav-collapse .nav > li > a {
     color: #ffffff;
   }
-  .navbar-custom.top-nav-collapse .nav li.active a {
+  .navbar-custom.top-nav-collapse .nav li.active a, .navbar-custom.top-nav-collapse .nav li.active2 a {
     color: #1ABC9C;
   }
   .navbar-custom.top-nav-collapse .nav > li > a:hover::before {
@@ -737,15 +739,18 @@ div.buttons {
 .tab-container .nav-tabs > li > a:hover {
   background: transparent;
 }
-.tab-container .nav-tabs > li.active > a {
+.tab-container .nav-tabs > li.active > a, 
+.tab-container .nav-tabs > li.active2 > a {
   border: none;
-  color:1ABC9C; 
-/*     #cc491f; */
+  color:#1ABC9C; 
   background: transparent;
 }
 .tab-container .nav-tabs > li.active > a,
 .tab-container .nav-tabs > li.active > a:focus,
-.tab-container .nav-tabs > li.active > a:hover {
+.tab-container .nav-tabs > li.active > a:hover,
+.tab-container .nav-tabs > li.active2 > a,
+.tab-container .nav-tabs > li.active2 > a:focus,
+.tab-container .nav-tabs > li.active2 > a:hover {
   border-width: 0;
 }
 .tab-container .tab-content {
@@ -780,20 +785,20 @@ div.buttons {
   border-top-color: #cccccc;
 }
 
-.tab-container .nav-tabs > li#magic-line {
+/*.tab-container .nav-tabs > li#magic-line ,.tab-container .nav-tabs > li#magic-line2 {
   position: absolute;
   bottom: -1px;
   left: 0;
   width: 100px;
   height: 2px;
   background: #FFE400;
-}
+}*/
 
-@media (max-width: 768px) {
-  li#magic-line{
+/*@media (max-width: 768px) {
+  li#magic-line,  li#magic-line2{
     display:none;
   }
-}
+}*/
 
 /*------------------------------------*/
 /* 
