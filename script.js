@@ -89,7 +89,7 @@ function tabSlide2() {
   $("#example-two").append("<li id='magic-line2'></li>");
   var $magicLine = $("#magic-line2");
   $magicLine
-    .width($(".active").width())
+    .width($(".active2").width())
     .css("left", $(".active a").position().left)
     .data("origLeft", $magicLine.position().left)
     .data("origWidth", $magicLine.width());
@@ -123,8 +123,8 @@ function tabSlide3() {
   $("#example-three").append("<li id='magic-line3'></li>");
   var $magicLine = $("#magic-line3");
   $magicLine
-    .width($(".active").width())
-    .css("left", $(".active a").position().left)
+    .width($(".active3").width())
+    .css("left", $(".active3 a").position().left)
     .data("origLeft", $magicLine.position().left)
     .data("origWidth", $magicLine.width());
   $("#example-three li").find("a").hover(function() {
@@ -158,8 +158,8 @@ function tabSlide4() {
   $("#example-four").append("<li id='magic-line4'></li>");
   var $magicLine = $("#magic-line4");
   $magicLine
-    .width($(".active").width())
-    .css("left", $(".active a").position().left)
+    .width($(".active4").width())
+    .css("left", $(".active4 a").position().left)
     .data("origLeft", $magicLine.position().left)
     .data("origWidth", $magicLine.width());
   $("#example-four li").find("a").hover(function() {
