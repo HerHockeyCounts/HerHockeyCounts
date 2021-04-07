@@ -5,11 +5,11 @@
   <title>NWHL&nbsp; | &nbsp;Her Hockey Counts.</title>
   <meta name="viewport" content="width=device-width">
   <meta name="description" content="Her Hockey Counts is a public database for women’s hockey stats tracked and compiled by Mike Murphy.">
-  <meta name="keywords" content="Her Hockey Counts, Her Hockey, Hero Hockey Count, HHC, HHC., NWHL, NCAA, SDHL, CWHL, Canadian women's hockey, Canadian womens hockey, International Hockey, IIHF, National Womens Hockey League, National Women's Hockey League, Ice Hockey World Championship, Ice Hockey World Championships, National Collegiate Athletic Association, College hockey, womens hockey, ice hockey, hockey, Worlds Plymouth 2017, Pyeong Chang 2018, Pyeong Chang, worlds, olympics, olympic hockey, Worlds Espoo 2019, Mike Murphy">
+  <meta name="keywords" content="Her Hockey Counts, Her Hockey, Hero Hockey Count, HHC, HHC., NWHL, NCAA, SDHL, CWHL, U18, WWC, Canadian women's hockey, Canadian womens hockey, International Hockey, IIHF, National Womens Hockey League, National Women's Hockey League, Ice Hockey World Championship, Ice Hockey World Championships, National Collegiate Athletic Association, College hockey, womens hockey, ice hockey, hockey, Worlds Plymouth 2017, Pyeong Chang 2018, Pyeong Chang, worlds, olympics, olympic hockey, Worlds Espoo 2019, Mike Murphy">
   <!-- -->
-  <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.glitch.com/feed1218-b44c-4668-b984-cf2965371b6b%2Fapple-touch-icon.png?v=1591495434410">
-  <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.glitch.com/feed1218-b44c-4668-b984-cf2965371b6b%2Ffavicon-32x32.png?v=1591495434190">
-  <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.glitch.com/feed1218-b44c-4668-b984-cf2965371b6b%2Ffavicon-16x16.png?v=1591495434103">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
   <link rel="manifest" href="https://cdn.glitch.com/feed1218-b44c-4668-b984-cf2965371b6b%2Fsite.webmanifest?v=1591495434292">
   <!-- -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet" type="text/css">
@@ -42,7 +42,7 @@
             <span class="fas fa-bars fa-lg"></span>
           </button>
           <a href="index.html" class="navbar-brand page-scroll">
-            <span><img class="img-responsive" src="https://cdn.glitch.com/feed1218-b44c-4668-b984-cf2965371b6b%2Fhcc-logo-dot-6400A8.png?v=1591491815679" width="40"></span>
+            <span><img class="img-responsive" src="images/hcc-logo-dot-6400A8.png" width="40"></span>
           </a>
         </div>
         <div class="navbar-collapse navbar-right navbar-main-collapse collapse" aria-expanded="false">
@@ -50,6 +50,7 @@
               <li><a class="page-scroll" href="#NWHL">NWHL</a></li>
               <li><a href="CWHL.html">CWHL</a></li>
               <li><a href="International.html">International</a></li>
+              <li><a href="U18.html">U18</a></li>
               <li><a href="NCAA.html">NCAA</a></li>
               <li><a class="page-scroll" href="#Glossary">Glossary</a></li>
               <li><a href="Resources.html">Resources</a></li>
@@ -63,7 +64,7 @@
     <div class="home-content pt-50">
       <div class="container">
           <!-- <h1 class="hs-line-1"><span class="accent">.</span></h1> -->
-         <img class="img-responsive NWHL-logo" src="https://cdn.glitch.com/feed1218-b44c-4668-b984-cf2965371b6b%2Fnwhl-logo-white.png?v=1590948611995" width="40%">
+         <img class="img-responsive NWHL-logo" src="images/nwhl-logo-white.png" width="40%">
       </div>
     </div>
     <span class="scroll-indicator">
@@ -85,16 +86,73 @@
           <div class="col-lg-12">
             <div class="tab-container">
               <ul class="nav nav-tabs" id="example-one" role="tablist">
-                <li class="active" role="presentation"><a href="#first" aria-controls="first" role="tab" data-toggle="tab">2019-20</a></li>
-                <li role="presentation"><a href="#second" aria-controls="second" role="tab" data-toggle="tab">2018-19</a></li>
-                <li role="presentation"><a href="#third" aria-controls="third" role="tab" data-toggle="tab">2017-18</a></li>
-                <li role="presentation"><a href="#fourth" aria-controls="fourth" role="tab" data-toggle="tab">2016-17</a></li>
-                <li role="presentation"><a href="#fifth" aria-controls="fifth" role="tab" data-toggle="tab">2015-16</a></li>
-                <li role="presentation"><a href="#sixth" aria-controls="sixth" role="tab" data-toggle="tab">All Time</a></li>
+                <li class="active" role="presentation"><a href="#2020_21" aria-controls="2020_21" role="tab" data-toggle="tab">2020-21</a></li>
+                <li role="presentation"><a href="#2019_20" aria-controls="2019_20" role="tab" data-toggle="tab">2019-20</a></li>
+                <li role="presentation"><a href="#2018_19" aria-controls="2018_19" role="tab" data-toggle="tab">2018-19</a></li>
+                <li role="presentation"><a href="#2017_18" aria-controls="2017_18" role="tab" data-toggle="tab">2017-18</a></li>
+                <li role="presentation"><a href="#2016_17" aria-controls="2016_17" role="tab" data-toggle="tab">2016-17</a></li>
+                <li role="presentation"><a href="#2015_16" aria-controls="2015_16" role="tab" data-toggle="tab">2015-16</a></li>
+                <li role="presentation"><a href="#AllTime" aria-controls="AllTime" role="tab" data-toggle="tab">All Time</a></li>
               </ul>
               <div class="tab-content">
                 <!--19-20-->
-                <div class="tab-pane active" id="first" role="tabpanel">
+                <div class="tab-pane active" id="2020_21" role="tabpanel">
+                  <div class="panel-group" id="accordion7" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="headingOne7">
+                        <h4 class="panel-title">
+                          <a role="button" data-toggle="collapse" data-parent="#accordion7" href="#Skaters7" aria-expanded="true" aria-controls="Skaters7">
+                            <i class="more-less glyphicon glyphicon-plus"></i>
+                            Skaters
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="Skaters7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne7">
+                        <div class="panel-body">
+                          <li class="table-item">
+                            <iframe class="airtable-embed" src="https://airtable.com/embed/shr3cVEPL9wkpiEJI?backgroundColor=gray&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+                          </li>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="headingTwo7">
+                        <h4 class="panel-title">
+                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion7" href="#Goalies7" aria-expanded="false" aria-controls="Goalies7">
+                            <i class="more-less glyphicon glyphicon-plus"></i>
+                            Goalies
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="Goalies7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo7">
+                        <div class="panel-body">
+                          <li class="table-item">
+                            <iframe class="airtable-embed" src="https://airtable.com/embed/shr6Ylu7tlGZIY9Nn?backgroundColor=gray&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+                          </li>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="headingThree7">
+                        <h4 class="panel-title">
+                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion7" href="#Teams7" aria-expanded="false" aria-controls="Teams7">
+                            <i class="more-less glyphicon glyphicon-plus"></i>
+                            Teams
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="Teams7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree7">
+                        <div class="panel-body">
+                          <li class="table-item">
+                            <iframe class="airtable-embed" src="https://airtable.com/embed/shrkkVprRhTuYLGP5?backgroundColor=gray&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="333" style="background: transparent; border: 1px solid #ccc;"></iframe>
+                          </li>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--19-20-->
+                <div class="tab-pane" id="2019_20" role="tabpanel">
                   <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-default">
                       <div class="panel-heading" role="tab" id="headingOne">
@@ -150,7 +208,7 @@
                   </div>
                 </div>
                 <!--18-19-->
-                <div class="tab-pane" id="second" role="tabpanel">
+                <div class="tab-pane" id="2018_19" role="tabpanel">
                   <div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-default">
                       <div class="panel-heading" role="tab" id="headingOne2">
@@ -206,7 +264,7 @@
                   </div>
                 </div>
                 <!--17-18-->
-                <div class="tab-pane" id="third" role="tabpanel">
+                <div class="tab-pane" id="2017_18" role="tabpanel">
                   <div class="panel-group" id="accordion3" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-default">
                       <div class="panel-heading" role="tab" id="headingOne3">
@@ -262,7 +320,7 @@
                   </div>
                 </div>
                 <!--16-17-->
-                <div class="tab-pane" id="fourth" role="tabpanel">
+                <div class="tab-pane" id="2016_17" role="tabpanel">
                   <div class="panel-group" id="accordion4" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-default">
                       <div class="panel-heading" role="tab" id="headingOne4">
@@ -300,9 +358,8 @@
                     </div>
                   </div>
                 </div>
-                
                 <!--15-16-->
-                <div class="tab-pane" id="fifth" role="tabpanel">
+                <div class="tab-pane" id="2015_16" role="tabpanel">
                   <div class="panel-group" id="accordion5" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-default">
                       <div class="panel-heading" role="tab" id="headingOne5">
@@ -341,7 +398,7 @@
                   </div>
                 </div>
                 <!--All Time-->
-                <div class="tab-pane" id="sixth" role="tabpanel">
+                <div class="tab-pane" id="AllTime" role="tabpanel">
                   <div class="panel-group" id="accordion6" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-default">
                       <div class="panel-heading" role="tab" id="headingOne6">
