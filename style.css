@@ -283,6 +283,7 @@ span.accent {
   padding-left:  13px;
   padding-right:  13px; 
 }
+
 .nav > li {
     font-size: 13px;
   }
@@ -371,6 +372,45 @@ span.accent {
   }
 
 }
+
+
+/**/
+.nav > li > div { 
+  padding-left:  13px;
+  padding-right:  13px; 
+  line-height: 20px;
+}
+.navbar-nav>li> div {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+/* Dropdown Button */
+.dropbtn {
+  line-height: 20px;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 100px;
+  z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  font-size: 11px;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+/**/
 
 
 .navbar-toggle {
