@@ -233,7 +233,7 @@ span.accent {
   }
 }
 @media (max-width: 768px) {
-  .NWHL-logo, .U18-logo {
+  .PHF-logo, .U18-logo, .CWHL-logo, .PWHPA-logo {
     width:55%;
   }
   .International-logo{
@@ -275,10 +275,17 @@ span.accent {
   content: "";
   position: absolute;
   bottom: 10px;
-  left: 15px;
+  left: 13px;
   width: 20px;
   border-bottom: 4px solid #FFE400;
 }
+.nav > li > a { 
+  padding-left:  13px;
+  padding-right:  13px; 
+}
+.nav > li {
+    font-size: 13px;
+  }
 @media (min-width: 768px) {
   .navbar-custom {
     padding: 20px 0;
@@ -295,10 +302,10 @@ span.accent {
 }
 @media (min-width: 768px) and (max-width: 825px) {
   .nav > li {
-    font-size: 12px;
+    font-size: 11px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .nav > li {
     font-size: 13px;
   }
@@ -325,6 +332,10 @@ span.accent {
   }
   .navbar-custom {
     font-size: 0.9em;
+  }
+  .navbar-fixed-bottom .navbar-collapse,.navbar-fixed-top .navbar-collapse {
+    max-height: 430px;
+     border-bottom: 1px solid white;
   }
 }
 
@@ -358,7 +369,9 @@ span.accent {
   .navbar-custom.top-nav-collapse .nav > li > a:hover::before {
     border-bottom-color: #6400A8;
   }
+
 }
+
 
 .navbar-toggle {
   font-size: 1em;
@@ -461,6 +474,10 @@ div.buttons {
 
 #featured.content-section {
   padding: 75px 0;
+}
+#featured li {
+  font-size: 16px; 
+  line-height: 30px;
 }
 
 @media (max-width: 768px) {
@@ -696,10 +713,16 @@ div.buttons {
 .International-section .section-title {
   color: #0f2437;
 }
-.NWHL-section .section-title {
+.PHF-section .section-title {
+  color: #0f2437;
+}
+.CWHL-section .section-title {
   color: #0f2437;
 }
 .NCAA-section .section-title {
+  color: #0f2437;
+}
+.PWHPA-section .section-title {
   color: #0f2437;
 }
 .SDHL-section .section-title {
