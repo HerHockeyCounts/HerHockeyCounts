@@ -9,42 +9,62 @@
 
 <url>
   <loc>https://theirhockeycounts.com/</loc>
-  <lastmod>2021-04-27T01:09:45+00:00</lastmod>
+  <lastmod>2022-07-15T15:59:25+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://theirhockeycounts.com/NWHL.html</loc>
-  <lastmod>2021-04-27T01:09:45+00:00</lastmod>
+  <loc>https://theirhockeycounts.com/PHF.html</loc>
+  <lastmod>2022-07-15T15:59:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://theirhockeycounts.com/CWHL.html</loc>
-  <lastmod>2021-04-27T01:09:45+00:00</lastmod>
+  <lastmod>2022-07-15T15:59:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://theirhockeycounts.com/International.html</loc>
-  <lastmod>2021-04-27T01:09:45+00:00</lastmod>
+  <loc>https://theirhockeycounts.com/International_90s.html</loc>
+  <lastmod>2022-07-15T15:59:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://theirhockeycounts.com/U18.html</loc>
-  <lastmod>2021-04-27T01:09:45+00:00</lastmod>
+  <loc>https://theirhockeycounts.com/International_00s.html</loc>
+  <lastmod>2022-07-15T15:59:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://theirhockeycounts.com/International_10s.html</loc>
+  <lastmod>2022-07-15T15:59:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://theirhockeycounts.com/International_20s.html</loc>
+  <lastmod>2022-07-15T15:59:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://theirhockeycounts.com/NCAA.html</loc>
-  <lastmod>2021-04-27T01:09:45+00:00</lastmod>
+  <lastmod>2022-07-15T15:59:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://theirhockeycounts.com/PWHPA.html</loc>
+  <lastmod>2022-07-15T15:59:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://theirhockeycounts.com/Resources.html</loc>
-  <lastmod>2021-04-27T01:09:45+00:00</lastmod>
+  <lastmod>2022-07-15T15:59:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://theirhockeycounts.com/index.html</loc>
-  <lastmod>2021-04-27T01:09:45+00:00</lastmod>
+  <lastmod>2022-07-15T15:59:25+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://theirhockeycounts.com/U18.html</loc>
+  <lastmod>2022-07-15T15:59:25+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
