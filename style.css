@@ -202,7 +202,7 @@ span.accent {
 
 #Glossary .list-group-item {
   background: transparent;
-  border:
+  /* border: */
 }
 /*------------------------------------*/
 /* 
@@ -387,7 +387,22 @@ span.accent {
 /* Dropdown Button */
 .dropbtn {
   line-height: 20px;
+  margin: 0;
+  padding: 0;
+  background-color: none;
+  background: none;
+  border: 0;
+  color: #ffffff;
 }
+button.dropbtn {
+  font-weight: 600;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  letter-spacing:1px;
+  -webkit-font-smoothing: antialiased;
+}
+
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
@@ -409,7 +424,7 @@ span.accent {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+/* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
 /**/
 
 
